@@ -10,13 +10,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b> ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>Yᴜᴛᴀ</a>\nAɴɪᴍᴇ Pᴀʀᴀᴅᴏx : <a href='https://t.me/Animes_Paradox'>Cʟɪᴄᴋ Hᴇʀᴇ</a>\nOɴɢᴏɪɴɢ Pᴀʀᴀᴅᴏx : <a href='https://t.me/Ongoing_Paradox'>Cʟɪᴄᴋ Hᴇʀᴇ</a>\nHᴀɴɪᴍᴇ Pᴀʀᴀᴅᴏx : <a href='https://t.me/Heanime_Hub'>Cʟɪᴄᴋ Hᴇʀᴇ</a></b>",
+            text = f"<b>ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>ᴍɪᴋᴇʏ</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                    InlineKeyboardButton("⚡️ Cʟᴏsᴇ", callback_data = "close"),
-                    InlineKeyboardButton('🍁 Yᴜᴛᴀ', url='https://t.me/Spy_Radios')
+                    InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "close"),
+                    InlineKeyboardButton('🍁 ᴄʜᴀɴɴᴇʟ', url='https://t.me/Doraemon_India_Official_Hindi')
                     ]
                 ]
             )
@@ -27,3 +27,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             await query.message.reply_to_message.delete()
         except:
             pass
+
+#⋗  ᴛᴇʟᴇɢʀᴀᴍ - @Codeflix_bots
+
+
+#- ᴄʀᴇᴅɪᴛ - Github - @Codeflix-bots , @erotixe
+#- ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ʀᴇᴍᴏᴠᴇ ᴄʀᴇᴅɪᴛ..
+#- ᴛʜᴀɴᴋ ʏᴏᴜ ᴄᴏᴅᴇғʟɪx ʙᴏᴛs ғᴏʀ ʜᴇʟᴘɪɴɢ ᴜs ɪɴ ᴛʜɪs ᴊᴏᴜʀɴᴇʏ 
+#- ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ɢɪᴠɪɴɢ ᴍᴇ ᴄʀᴇᴅɪᴛ @Codeflix-bots  
+#- ғᴏʀ ᴀɴʏ ᴇʀʀᴏʀ ᴘʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ -> ᴛᴇʟᴇɢʀᴀᴍ @codeflix_bots Community @Otakflix_Network </b>
